@@ -10,3 +10,13 @@ The goal is to analyze AI responses based on:
 - Completeness
 
 This project reflects the type of work often performed in AI model evaluation and language quality assessment roles.
+
+## Skills Demonstrated
+
+This project demonstrates the following skills relevant to AI evaluation work:
+
+- LLM response evaluation
+- hallucination detection
+- reasoning and quality comparison
+- structured evaluation documentation
+- prompt analysis
