@@ -20,3 +20,13 @@ This project demonstrates the following skills relevant to AI evaluation work:
 - reasoning and quality comparison
 - structured evaluation documentation
 - prompt analysis
+
+## Python Practice for AI Evaluation
+
+This project also includes simple Python scripts to simulate AI evaluation workflows:
+
+- compare_responses.py → compares two responses
+- text_check.py → checks text clarity and length
+- json_reader.py → handles structured response data
+
+These scripts are designed for practical AI annotation and evaluation tasks.
