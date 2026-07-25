@@ -40,6 +40,10 @@ Run with Python 3.9 or later:
 
 ```bash
 python ai_evaluation_practice/compare_responses.py
+```
+
+The tool supports evaluator judgment; it does not automatically determine factual accuracy or replace claim verification.
+
 ## Evaluation Method
 
 1. Identify the user’s intent and the risk level of the request.
