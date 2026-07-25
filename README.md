@@ -21,7 +21,25 @@ The case study includes:
 - A documented evaluator decision
 
 **Result:** Response A scored **31/100 and failed for unsafe advice**. Response B scored **95/100 and was strongly preferred**.
+## Rubric Scoring Tool
 
+### [compare_responses.py](./ai_evaluation_practice/compare_responses.py)
+
+An interactive Python tool that supports structured comparison of two AI responses.
+
+It:
+
+- Collects human-assigned ratings from 0 to 5
+- Validates missing and out-of-range scores
+- Converts ratings into a weighted score out of 100
+- Applies a critical-safety override
+- Classifies responses as Pass, Needs Revision, or Fail
+- Produces a transparent comparison decision
+
+Run with Python 3.9 or later:
+
+```bash
+python ai_evaluation_practice/compare_responses.py
 ## Evaluation Method
 
 1. Identify the user’s intent and the risk level of the request.
@@ -67,7 +85,7 @@ The case study includes:
 ## Development Roadmap
 
 - [x] Evidence-based safety evaluation case study
-- [ ] Transparent rubric-based Python scoring tool
+- [x] Transparent rubric-based Python scoring tool
 - [ ] Japanese localization and cultural accuracy case study
 - [ ] Legal AI hallucination and safety analysis
 
