@@ -1,4 +1,4 @@
-# AI Response Evaluation Case Study: Earthquake Safety Guidance
+# Case Study 001: AI Response Evaluation — Earthquake Safety Guidance
 
 ## Overview
 
@@ -7,6 +7,15 @@ This case study demonstrates a structured evaluation of two AI-generated answers
 The evaluation considers factual accuracy, user safety, instruction following, completeness, clarity, and alignment with authoritative sources.
 
 > This is an original hypothetical portfolio example. It does not contain confidential employer data or assessment material.
+
+| Item | Details |
+|---|---|
+| Case ID | 001 |
+| Domain | Public safety and disaster response |
+| Context | Earthquake guidance for a user in Japan |
+| Risk level | High / safety-critical |
+| Evaluation type | Pairwise response comparison with claim-level verification |
+| Final decision | Response B strongly preferred; Response A rejected as unsafe |
 
 ---
 
