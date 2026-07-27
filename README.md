@@ -4,23 +4,15 @@ A practical portfolio demonstrating structured evaluation of AI-generated respon
 
 The work focuses on transparent reasoning: identifying claims, verifying them against reliable sources, classifying errors by severity, and improving weak responses.
 
-## Featured Case Study
+## Featured Case Studies
 
-### [Earthquake Safety Guidance](./evaluation_examples.md)
+| Case | Evaluation Focus | Decision |
+|---|---|---|
+| [001 — Earthquake Safety Guidance](./case-studies/001-earthquake-safety.md) | Safety-critical advice, factual verification, and error severity | Response B: 95/100; Response A rejected as unsafe |
+| [002 — Japanese Subscription Notice](./case-studies/002-japanese-localization.md) | Japanese localization, semantic fidelity, cultural fit, and user trust | Response B: 98/100; Response A requires major revision |
 
-A safety-critical comparison of two AI-generated answers to an earthquake preparedness question.
+Each case includes the source task, pairwise responses, a weighted rubric, issue-level analysis, an evaluator decision, and an improved final answer.
 
-The case study includes:
-
-- A weighted 100-point evaluation rubric
-- Claim-by-claim factual verification
-- Critical, major, and minor error classification
-- A safety override for potentially harmful advice
-- Evidence from authoritative Japanese sources
-- A rewritten final answer
-- A documented evaluator decision
-
-**Result:** Response A scored **31/100 and failed for unsafe advice**. Response B scored **95/100 and was strongly preferred**.
 ## Rubric Scoring Tool
 
 ### [compare_responses.py](./ai_evaluation_practice/compare_responses.py)
@@ -90,7 +82,7 @@ The tool supports evaluator judgment; it does not automatically determine factua
 
 - [x] Evidence-based safety evaluation case study
 - [x] Transparent rubric-based Python scoring tool
-- [ ] Japanese localization and cultural accuracy case study
+- [x] Japanese localization and cultural accuracy case study
 - [ ] Legal AI hallucination and safety analysis
 
 ## Ethics and Confidentiality
