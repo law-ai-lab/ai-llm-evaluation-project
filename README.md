@@ -11,6 +11,7 @@ The work focuses on transparent reasoning: identifying claims, verifying them ag
 | [001 — Earthquake Safety Guidance](./case-studies/001-earthquake-safety.md) | Safety-critical advice, factual verification, and error severity | Response B: 95/100; Response A rejected as unsafe |
 | [002 — Japanese Subscription Notice](./case-studies/002-japanese-localization.md) | Japanese localization, semantic fidelity, cultural fit, and user trust | Response B: 98/100; Response A requires major revision |
 | [003 — Online Shopping Legal Hallucination](./case-studies/003-online-shopping-law.md) | Japanese consumer law, legal hallucination detection, official-source verification, and user safety | Response B: 100/100; Response A rejected as unsafe |
+| [004 — Inheritance by Representation](./case-studies/004-inheritance-by-representation.md) | Japanese inheritance law, representation by branch, statutory-share calculation, and legal safety | Response B: 100/100; Response A contains a major legal error |
 
 Each case includes the source task, pairwise responses, a weighted rubric, issue-level analysis, an evaluator decision, and an improved final answer.
 
