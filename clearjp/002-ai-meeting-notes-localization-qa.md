@@ -3,6 +3,8 @@
 
 **Japanese AI & Localization Quality Review**
 
+**Website:** [clearjp.com](https://clearjp.com)
+
 Small wording choices can change what users believe an AI tool has done, what they do next, and whether they trust its output. This review follows a fictional meeting-notes workflow from transcript input to draft review and saving.
 
 **Fictional demonstration, not a client project.** “MeetingDraft” is a working name invented for this exercise, not a claim about a real product or trademark. ChatGPT created the intentionally imperfect Japanese examples and assisted with this review. This is an AI-assisted portfolio exercise prepared for Rie Nakahara / ClearJP; it is not evidence of independent human validation or measured usability improvement. No English source exists, so bilingual translation accuracy is outside scope.
