@@ -15,6 +15,15 @@ The work focuses on transparent reasoning: identifying claims, verifying them ag
 
 Each case includes the source task, pairwise responses, a weighted rubric, issue-level analysis, an evaluator decision, and an improved final answer.
 
+## ClearJP — Japanese Localization QA
+
+[ClearJP case index](./clearjp/README.md)
+
+- [Case #002 — AI meeting-notes localization QA](./clearjp/002-ai-meeting-notes-localization-qa.md)
+- [Case #003 — AI customer support: fluent Japanese that overstates the source](./clearjp/003-ai-customer-support-localization-qa.md)
+
+AI-assisted fictional portfolio exercises; see each case for its scope and limitations.
+
 ## Rubric Scoring Tool
 
 ### [compare_responses.py](./ai_evaluation_practice/compare_responses.py)
@@ -90,3 +99,4 @@ The tool supports evaluator judgment; it does not automatically determine factua
 ## Ethics and Confidentiality
 
 All examples in this repository are original portfolio exercises. They do not contain confidential employer information, proprietary guidelines, or real assessment materials.
+
