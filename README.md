@@ -22,6 +22,7 @@ Each case includes the source task, pairwise responses, a weighted rubric, issue
 - [Case #002 — AI meeting-notes localization QA](./clearjp/002-ai-meeting-notes-localization-qa.md)
 - [Case #003 — AI customer support: fluent Japanese that overstates the source](./clearjp/003-ai-customer-support-localization-qa.md)
 - [Case #004 — AI product claims: when persuasive Japanese invents product facts](./clearjp/004-ai-product-claims-hallucination-risk.md)
+- [Case #005 — AI onboarding & consent: when optional choices look mandatory](./clearjp/005-ai-onboarding-consent-clarity.md)
 
 AI-assisted fictional portfolio exercises; see each case for its scope and limitations.
 
@@ -100,5 +101,6 @@ The tool supports evaluator judgment; it does not automatically determine factua
 ## Ethics and Confidentiality
 
 All examples in this repository are original portfolio exercises. They do not contain confidential employer information, proprietary guidelines, or real assessment materials.
+
 
 
