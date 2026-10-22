@@ -26,6 +26,10 @@ Each case includes the source task, pairwise responses, a weighted rubric, issue
 
 AI-assisted fictional portfolio exercises; see each case for its scope and limitations.
 
+## Research
+
+- [AI Governance in Japan — 2026](./research/ai-governance-japan-2026.md) — Official-source research connecting Japanese AI governance, jurisdictional differences, and practical AI evaluation.
+
 ## Rubric Scoring Tool
 
 ### [compare_responses.py](./ai_evaluation_practice/compare_responses.py)
@@ -101,6 +105,7 @@ The tool supports evaluator judgment; it does not automatically determine factua
 ## Ethics and Confidentiality
 
 All examples in this repository are original portfolio exercises. They do not contain confidential employer information, proprietary guidelines, or real assessment materials.
+
 
 
 
