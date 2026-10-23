@@ -6,8 +6,6 @@ AI-assisted fictional portfolio exercises demonstrating structured Japanese prod
 - [Case #003 — AI customer support: fluent Japanese that overstates the source](./003-ai-customer-support-localization-qa.md)
 - [Case #004 — AI product claims: when persuasive Japanese invents product facts](./004-ai-product-claims-hallucination-risk.md)
 - [Case #005 — AI onboarding & consent: when optional choices look mandatory](./005-ai-onboarding-consent-clarity.md)
+- [Case #006 — Human tone in AI Japanese: when “correct” language loses warmth and dignity](./006-human-tone-warmth-dignity.md)
 
 Each case identifies its scope and limitations. These examples are not client projects.
-
-
-
