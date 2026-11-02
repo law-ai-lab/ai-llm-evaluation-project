@@ -33,8 +33,8 @@ An interpretation may fail at one layer while the wording remains fluent at anot
 
 | ID | Supplied conversation or product fact | Boundary |
 |---|---|---|
-| E1 | The shopper has said 「マイバッグを持っています。袋は不要です。」 A later turn asks 「袋は必要ですか？」; the shopper replies 「大丈夫です。」 The service may update the bag choice in an unsubmitted order draft. | The earlier explicit refusal supports no bag. No purchase or payment is authorized. |
-| E2 | The assistant asks 「袋を付けて、領収書もメールでお送りしてよろしいですか？」 The only reply is 「大丈夫です。」 No earlier preference is available. | Two distinct choices remain unresolved; no bag choice or receipt email has been authorized by this brief. |
+| E1 | The shopper has said 「マイバッグを持っています。袋は要らないです。」 A later turn asks 「袋は必要ですか？」; the shopper replies 「大丈夫です。」 The service may update the bag choice in an unsubmitted order draft. | The earlier explicit refusal supports no bag. No purchase or payment is authorized. |
+| E2 | The assistant asks 「袋をお付けして、領収書もメールで送付してよろしいでしょうか？」 The only reply is 「大丈夫です。」 No earlier preference is available. | Two distinct choices remain unresolved; no bag choice or receipt email has been authorized by this brief. |
 | E3 | The user reviews a message layout and says 「この配置で結構です。修正は不要です。」 The draft remains unsent. | Layout acceptance is explicit. It is not authorization to send the message. |
 | E4 | A task-note assistant receives only 「椅子を直してください。」 No preceding location, defect or task context is supplied. It can draft a note, not move or repair objects. | Repair versus returning/putting away the chair is unresolved. Local usage and the situation may affect the interpretation. |
 | E5 | A prototype preview asks the person to choose one of three fictional display-name candidates. Only the preview changes; real names and contact details are unnecessary. | The intended action is choosing a preview name, not entering arbitrary data into a real customer record. |
@@ -64,7 +64,7 @@ These are qualitative judgments about the fictional proposals, not measured harm
 
 **User / product text**
 
-> Shopper, earlier: マイバッグを持っています。袋は不要です。  
+> Shopper, earlier: マイバッグを持っています。袋は要らないです。  
 > Assistant: 袋は必要ですか？  
 > Shopper: 大丈夫です。
 
@@ -80,7 +80,7 @@ An affirmative-sounding reading reverses the stated bag preference even though e
 
 **ClearJP review**
 
-The earlier explicit 「袋は不要です」 supplies the decisive context. In this exchange, 「大丈夫です」 is consistent with declining the bag, not a fresh instruction to add one. The review does not establish a universal meaning for the expression or a frequency across Japanese speakers.
+The earlier explicit 「袋は要らないです」 supplies the decisive context. In this exchange, 「大丈夫です」 is consistent with declining the bag, not a fresh instruction to add one. The review does not establish a universal meaning for the expression or a frequency across Japanese speakers.
 
 **Suggested handling**
 
@@ -101,7 +101,7 @@ The useful correction is to the system's reading and next step, not to the custo
 
 **User / product text**
 
-> Assistant: 袋を付けて、領収書もメールでお送りしてよろしいですか？  
+> Assistant: 袋をお付けして、領収書もメールで送付してよろしいでしょうか？  
 > Shopper: 大丈夫です。
 
 **Possible interpretation / proposed response**
@@ -386,3 +386,4 @@ This is an original, AI-assisted fictional portfolio exercise, not client work, 
 Interpretations may differ with audience, region, relationship and further conversation. Real use requires product-owner confirmation, actual-interface review and appropriate testing. No release approval, conversion result, user reaction or guaranteed safety outcome is established. No English source was supplied, so bilingual translation fidelity is not assessed.
 
 **Numbering:** ClearJP Case #008 belongs to the ClearJP series and is separate from other evaluation-case numbering in this repository.
+
