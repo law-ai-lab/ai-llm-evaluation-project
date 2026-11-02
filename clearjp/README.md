@@ -8,6 +8,6 @@ AI-assisted fictional portfolio exercises demonstrating structured Japanese prod
 - [Case #005 — AI onboarding & consent: when optional choices look mandatory](./005-ai-onboarding-consent-clarity.md)
 - [Case #006 — Human tone in AI Japanese: when “correct” language loses warmth and dignity](./006-human-tone-warmth-dignity.md)
 - [Case #007 — AI error messages: when Japanese makes the user feel blamed](./007-ai-error-messages-user-blame.md)
+- [Case #008 — When the Japanese word is correct — but the meaning is wrong](./008-correct-word-wrong-meaning.md)
 
 Each case identifies its scope and limitations. These examples are not client projects.
-
